@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <div class="maincontainer">
+    <!-- navbar start -->
+    <div class="navbar">
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#scrollspyHeading1"><img src="image/logo.jpeg"alt="wait"width="100px"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More Information
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">Prices</a></li>
+                  <hr class="dropdown-divider">
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">Loan</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <div id="scrollspyHeading1">
+          <!-- caursouel start -->
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="image/caursouel.jpg" class="d-block w-100 " height="650px" alt="wait">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="image/caursouel2.jpg" class="d-block w-100"height="650px" alt="wait">
+              </div>
+              <div class="carousel-item">
+                <img src="image/caursouel3.jpg" class="d-block w-100"height="650px" alt="wait">
+              </div>
+              <div class="carousel-item">
+                <img src="image/caursouel4.jpg" class="d-block w-100"height="650px" alt="wait">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </div>
+    <!-- carousel end -->
+       
+        <div class="container text-center">
+          <h4 id="scrollspyHeading2">ABOUT</h4>
+          <div class="row row-cols-12">
+            <div class="col"><div class="card" style="width: 18rem;">
+              <img src="image/caursouel.jpg" class="card-img-top" alt="wait">
+              <div class="card-body">
+                <h5 class="card-title">Royal Enfeild</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+              </div>
+            </div></div>
+            <div class="col"><div class="card" style="width: 18rem;">
+              <img src="image/caursouel2.jpg" class="card-img-top" alt="wait">
+              <div class="card-body">
+                <h5 class="card-title">Royal Enfield</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+              </div>
+            </div></div>
+            <div class="col"><div class="card" style="width: 18rem;">
+              <img src="image/caursouel3.jpg" class="card-img-top" alt="wait">
+              <div class="card-body">
+                <h5 class="card-title">Royal Enfield</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+              </div>
+            </div></div>
+            <div class="col"><div class="card" style="width: 18rem;">
+              <img src="image/caursouel4.jpg" class="card-img-top" alt="wait">
+              <div class="card-body">
+                <h5 class="card-title">Royal Enfeild</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">BOOK NOW</a>
+              </div>
+            </div></div>
+          </div>
+        </div>
+        
+        <div class="container text-center">
+          <h4 id="scrollspyHeading3">Prices</h4>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="image/caursouel4.jpg" class="card-img-top" alt="wait">
+                <div class="card-body">
+                  <h5 class="card-title">TVS Apache RTR 160</h5>
+                  <p class="card-text">Rs1,22,662*</p>
+                  <a href="#" class="btn btn-primary">View March Offers</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="image/caursouel3.jpg" class="card-img-top" alt="wait">
+                <div class="card-body">
+                  <h5 class="card-title">Bajaj Pulsar NS200 </h5>
+                  <p class="card-text">Rs1,22,662*</p>
+                  <a href="#" class="btn btn-primary">View March Offers</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="image/caursouel2.jpg" class="card-img-top" alt="wait">
+                <div class="card-body">
+                  <h5 class="card-title">Bajaj Pulsar N160</h5>
+                  <p class="card-text">Rs1,22,662*</p>
+                  <a href="#" class="btn btn-primary">View March Offers</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img src="image/caursouel.jpg" class="card-img-top" alt="wait">
+                <div class="card-body">
+                  <h5 class="card-title">Royal Enfield Bullet 350</h5>
+                  <p class="card-text">Rs1,22,662*</p>
+                  <a href="#" class="btn btn-primary">View March Offers</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="logo">
+        <div class="container text-center">
+          <h4 id="scrollspyHeading4">Loan</h4>
+          <div class="row row-cols-6">
+            <div class="col"><h3>Get Instant Bike Loan</h3></div>
+            <div class="col"><img src="image/hdfc.jpeg" width="300px" alt="error"/><button>Apply Now</button></div>
+          </div>
+        </div>
+      </div>
+       
+        <div class="container">
+          <h4 id="scrollspyHeading5">Royal Enfield Bike Dealers in Hyderabad</h4>
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Royal Engineers</h5>
+                  <p class="card-text"><img src="/image/location.png" width="20px" tittle="wait"/>No 12/8/413/416 Opposite Pillar No 17 Mettuguda, Hyderabad, Telangana, 500016</p>
+                  <p class="card-text"><img src="/image/email.png" width="20px"title=" wait"/>sales.royalengineers@gmail.com</p>
+                  <p class="card-text"><img src="/image/phone-call.png"width="20px" title="wait"/>9701711755</p>
+                                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Bolt Motocyclye LLP</h5>
+                
+                  <p class="card-text"><img src="./image/location.png" width="20px"alt="wait"/>Plot No 30, Sy No 64, 1/99/64/30, Rohini Layout, Madhapur, Hyderabad, Telangana, 500081</p>
+                  <p class="card-text"><img src="./image/email.png"width="20px" alt="wait"/>boltmotorcyclesllp@gmail.com</p>
+                  <p class="card-text"><img src="./image/phone-call.png" width="20px" alt="wait"/>8879125836</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Orange International</h5>
+                  <p class="card-text"><img src="./image/location.png" width="15px" alt="wait"/>ArnavArcade 10/215, New 14/215,New Mirzalguda,Malkajgiri,Hyderabad,Telangana,500047</p>
+               <p class="card-text"><img src="./image/email.png"width="15px" alt="wait"/>orange.resales2@gmail.com</p>
+               <p class="card-text"><img src="/image/phone-call.png" width="15px" alt="wait"/>8879429289</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+         </div>
+         <div class="container text-center">
+          <div class="row row-cols-12">
+            <div class="col">
+              <h4>
+                Book your free test ride
+              </h4>
+              <p><b>Complete the form and take one step closer to the first of many mesmerizing rides</b></p>
+              <form>
+                <input type="Name*" name="name" placeholder="Name"/>
+                <input type="pincode" name="pincode" placeholder="pincode"/>
+                <br>
+                <input type="email" name="email" placeholder="Email"/>
+                <input type="number" name="number" placeholder="number"/>
+                <p>Disclaimer: By signing this form/checking this box, you acknowledge and agree that we may use the information you <br> share with us, to communicate with you through e-mails, text messages, WhatsApp and calls, in order to provide our <br> product or service related information and/or for promotional and marketing purposes. All information provided will<br> be secured and processed as per our <b>privacy policy.</b></p>
+                <input type="checkbox"><label>I accept the <b>terms and conditions</b> as well as <b>privacy policy.</b></label>
+                <br>
+                <input type="submit" value="Test Ride Now>">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+          <!-- pagination start -->
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- pagination end -->
+            
+            </div>
+          </div>
+        </div>
+    
+        <footer>
+          <div class="container-fluid text-center" style="background-color: rgba(3, 3, 40, 0.874) ; color: aliceblue; margin-top: 20px; margin-bottom: 20px; padding-top: 15px;">
+            <div class="row">
+              <div class="col">
+                <ul style="list-style:none; line-height: 1;"> 
+                <li><a href="#scrollspyHeading5" style="color:white ; text-decoration:none;">HOME</a></li><br>
+                <li><a href="#scrollspyHeading2" style="color:white ; text-decoration:none;">ABOUT</a></li><br>
+                <li><a href="#scrollspyHeading5" style="color:white ; text-decoration:none;">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col"> <h6>SPECIALFLEET</h6>
+                <a href="#scrollspyHeading3" style="color:white ; text-decoration:none; list-style:none;">Prices</a>
+                <br>Disclaimer</div>
+              <div class="col">
+              <a href="#scrollspyHeading5" style="color:white ; text-decoration:none;">BLOG</a><br>
+                Newsletter<br>Nwes & Media
+              </div>
+              <div class="col">
+                <h6>Cities</h6>
+                Guntur<br>Bapatla
+              </div>
+              <div class="row">
+              <div class="col-12" style="text-align: center;">
+                @2022 Royal Enfeild PTE Ltd.</div>
+                <div class="row">
+                <div class="col-12" style="text-align: center; padding: auto;">
+                <h6 style="justify-content:flex-end ;">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <h6>
+              </div>
+              </div>
+              </div>
+              </div>
+            </div>
+        </footer>
+</div>
+</body>
+</html>
